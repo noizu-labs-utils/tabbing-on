@@ -511,9 +511,22 @@ bin/demo-runner --fast                 # speed up typing
 bin/demo-runner --slow                 # slow down typing
 bin/demo-runner --speed medium         # fast | medium | slow
 bin/demo-runner --no-pause             # minimal pauses between commands
+bin/demo-runner --reset-state --dry-run # SAFE PREVIEW: print what would be deleted, delete nothing (try this first)
+bin/demo-runner --reset-state          # delete the tabbing state dir first (irreversible, no backup)
 ```
 
 The runner sources `tabbing.zsh` so all `tabbing-*` commands work inside demo scripts.
+
+**`--reset-state` is destructive and irreversible.** It deletes
+`${XDG_STATE_HOME:-~/.local/state}/tabbing` — every tab's history, todos and
+asciinema recordings — before the demo starts, and prints the absolute path
+before deleting it. tabbing-on has **no backup mechanism**: deleted data
+cannot be recovered. Historically the runner did this wipe on *every*
+invocation with no flag; it is now strictly opt-in, and a plain run deletes
+nothing (only the in-memory tab variables are reset). `--dry-run` combines
+with `--reset-state` to print the target path and delete nothing — **use that
+form first** to preview the exact directory the destructive form would
+remove; on its own `--dry-run` has no effect (demo commands still execute).
 
 ### `.demo` File Format
 
