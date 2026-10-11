@@ -14,11 +14,11 @@
 #   bin/demo-runner [script.demo]   # default: demo/showcase.demo
 #   bin/demo-runner --speed fast    # fast/medium/slow
 #   bin/demo-runner --no-pause      # skip inter-command pauses
+#   bin/demo-runner --reset-state --dry-run
+#                                  # SAFE PREVIEW: print what would be
+#                                  # deleted; delete nothing (try this first)
 #   bin/demo-runner --reset-state   # delete tabbing state dir first
 #                                  # (IRREVERSIBLE, no backup; prints path)
-#   bin/demo-runner --reset-state --dry-run
-#                                  # print what would be deleted; delete
-#                                  # nothing
 
 set -e
 
@@ -182,7 +182,14 @@ if [[ "${_DEMO_RESET_STATE}" -eq 1 ]]; then
     printf 'demo-runner: --dry-run: would delete tabbing state dir: %s\n' "${_DEMO_TABBING_STATE_DIR}"
   else
     printf 'demo-runner: --reset-state: deleting tabbing state dir (irreversible, no backup): %s\n' "${_DEMO_TABBING_STATE_DIR}"
-    rm -rf "${_DEMO_TABBING_STATE_DIR}" 2>/dev/null || true
+    # Do NOT swallow rm errors: a partial failure (e.g. permission-protected
+    # files) must be reported loudly, not passed off as success. Note rm -rf
+    # exits 0 on a nonexistent path, so "already gone" is still success.
+    if ! _DEMO_RM_ERR="$(rm -rf "${_DEMO_TABBING_STATE_DIR}" 2>&1)"; then
+      printf 'demo-runner: ERROR: rm -rf failed; the state dir may be only PARTIALLY deleted: %s\n%s\n' \
+        "${_DEMO_TABBING_STATE_DIR}" "${_DEMO_RM_ERR}" >&2
+      exit 1
+    fi
   fi
 fi
 
