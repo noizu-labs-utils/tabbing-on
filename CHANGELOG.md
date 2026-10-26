@@ -1,5 +1,9 @@
 # Changelog — utilities/shell/tabbing-on
 
+## 2026-10-26
+
+- docs: correct stale "main is CI/CD-only" deploy note — merging into main triggers CI/CD (user-verified 2026-10-26)
+
 ## [Unreleased]
 - Fixed: `tabbing-init` purge now also clears `DC_TAB_NS`, `_TABBING_OWNER_PID`, `_TABBING_WAS_ACTIVE`, `TAB_THEME_DATA`, `TAB_BG`, `TAB_MARQUEE`, and style vars so inherited tab state cannot leak into a new shell
 - Fixed: `use_tabbing_dc` reads `${DC_TAB_NS:-tab}` instead of hardcoded global `tab`
