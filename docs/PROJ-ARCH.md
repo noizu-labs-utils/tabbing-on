@@ -143,8 +143,7 @@ claude-{TAB_SESSION}.pipe/.state   # Claude bridge FIFO + flat state file
 claude-bridge-{TAB_SESSION}.pid    # Bridge reader PID
 ```
 
-User themes live in `~/.config/tabbing-on/themes/`; `tmp-xdg/` in the repo is a
-scratch XDG tree for local testing.
+User themes live in `~/.config/tabbing-on/themes/`.
 
 ## Terminal Abstraction
 
@@ -159,12 +158,13 @@ wraps `ssh` to keep the local tab state intact across remote sessions
 
 ## Installation & Ecosystem Fit
 
-tabbing-on lives at `Portfolio/Utilities/source/tabbing-on/` in the Noizu
-Infra monorepo and is a SUBDIR of `Portfolio/Utilities/Makefile`, so the
-monorepo-root `make install-utilities` recurses into its own `Makefile`. Unlike
-the sibling DevOps utilities it does **not** source `share/k8-lib/` and has no
-`.infra-config.yaml` build/deploy footprint — it is a purely local terminal
-tool, but it targets the same `~/.local/bin` install convention.
+tabbing-on is checked out as a submodule of the Noizu Infra monorepo at
+`Projects/tabbing-on/` (remote `noizu-labs-utils/tabbing-on`); it was formerly
+nested under the `Portfolio/Utilities` subtree. Install is driven by its own
+root `Makefile`. Unlike the sibling DevOps utilities it does **not** source
+`share/k8-lib/` and has no `.infra-config.yaml` build/deploy footprint — it is a
+purely local terminal tool, but it targets the same `~/.local/bin` install
+convention.
 
 `make install` (default target): `cargo build --release`, install the binary
 as `~/.local/bin/tabbing-on`, create ~19 applet symlinks pointing at it,

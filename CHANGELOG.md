@@ -3,6 +3,7 @@
 ## 2026-10-26
 
 - docs: correct stale "main is CI/CD-only" deploy note — merging into main triggers CI/CD (user-verified 2026-10-26)
+- docs: doc-sweep 2026-10-26 — PROJ-LAYOUT/ARCH/SCHEMA/THREAT-MODEL refresh (drop stale `tmp-xdg/`, fix monorepo path to `Projects/tabbing-on`, colors.txt 658 names, threat-register counts 1 mitigated/1 partial/5 accepted/3 open); doc-pointer seed lands separately via `docs/pointer-sync-2026-10-26`
 
 ## [Unreleased]
 - Fixed: `tabbing-init` purge now also clears `DC_TAB_NS`, `_TABBING_OWNER_PID`, `_TABBING_WAS_ACTIVE`, `TAB_THEME_DATA`, `TAB_BG`, `TAB_MARQUEE`, and style vars so inherited tab state cannot leak into a new shell

@@ -17,7 +17,7 @@
 - **Open (3)**: T-001 terminal escape injection via title/status text (Medium);
   T-003 state files readable on multi-user hosts (Low); T-006 voice-memo audio
   + transcript leave machine to LiteLLM endpoint (Medium)
-- **Accepted (4)**: T-002 session `.env` = stored shell code; T-004 Claude
+- **Accepted (5)**: T-002 session `.env` = stored shell code; T-004 Claude
   FIFO spoofing; T-007 secrets in env vars; T-009 daemon DoS; T-010 editable
   history log
 - **Mitigated (2)**: T-005 tabbing-doctor config patching (partial);

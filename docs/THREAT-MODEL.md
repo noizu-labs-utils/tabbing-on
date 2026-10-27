@@ -69,7 +69,7 @@ Notable boundary-crossing components:
 
 ## Mitigation Coverage
 
-0 mitigated/partial · 3 accepted · 3 open (T-001, T-003, T-006). The open
+1 mitigated · 1 partial · 5 accepted · 3 open (T-001, T-003, T-006). The open
 items are low-effort hardening candidates, not active exposures: there is no
 network listener, no privileged execution, and no cross-user trust anywhere in
 the tool.

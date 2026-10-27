@@ -15,7 +15,7 @@
 | `claude-{SESSION}.state` / `.pipe` | shell vars / FIFO | `TAB_SESSION` |
 | `themes/<name>.theme` | `key = value` (bg, fg, cursor, color0–15, ps1_layout) | theme name |
 | `themes/<name>.themedata` | 383-line blob, line# = key (SGR/OSC/palette) | theme name |
-| `data/colors.txt` | X11 color DB, `name\|#RRGGBB` (657 names) | — |
+| `data/colors.txt` | X11 color DB, `name\|#RRGGBB` (658 names) | — |
 
 ## Key env vars
 

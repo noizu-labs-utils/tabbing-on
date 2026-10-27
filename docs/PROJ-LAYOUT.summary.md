@@ -17,7 +17,6 @@ tabbing-on/
 │   └── terminal-utils.zshrc    #   Legacy shim
 ├── docs/                       # PROJ-ARCH/HOWTO/FAQ/LAYOUT (+ summaries), THREAT-MODEL,
 │                               #   FEATURE-PARITY, theme-data-format, howto/, layout/, assets/
-├── tmp-xdg/                    # Scratch XDG config tree for testing
 ├── .envrc                      # direnv (gitignored) — TAB_THEME, NPL_PROJECT
 ├── Makefile                    # make install: cargo build + symlinks + shell libs
 ├── CHANGELOG.md                # Milestone-tagged change history

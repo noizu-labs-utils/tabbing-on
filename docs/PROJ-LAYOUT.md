@@ -34,8 +34,7 @@ tabbing-on/
 │   ├── howto/                  #   Per-task guides (first-hour, theme-picker, dc-mode, ...)
 │   ├── layout/                 #   Detailed layout breakdowns (rust.md, shell-impl.md)
 │   └── assets/                 #   Documentation images (title-bar.png)
-├── tmp-xdg/                    # Scratch XDG config tree for local testing (themes/)
-├── .claude/                    # Claude Code agents & commands (gitignored)
+├── .claude/                    # Claude Code agents & commands (path is gitignored; these files are force-added/tracked)
 ├── .envrc                      # direnv — TAB_THEME + NPL_PROJECT (gitignored; run `direnv allow`)
 ├── .gitignore                  # Ignores .claude, .tmp, .envrc, rust/target (plus vestigial ink-plan entries)
 ├── Makefile                    # make install: cargo build + applet symlinks + shell libs

@@ -170,7 +170,7 @@ and `ps1`. Values are `#RRGGBB`. Example: `shell-impl/examples/themes/my-dark.th
 One newline-delimited blob of **383 lines**, line number = lookup key (SGR
 codes, mnemonic OSC numbers 110–119, and palette slots at `128 + slot`).
 Values: `#RRGGBB`, named ANSI color, X11 symbolic name (resolved via
-`shell-impl/data/colors.txt`, 657 names, `name|#RRGGBB` per line), or
+`shell-impl/data/colors.txt`, 658 names, `name|#RRGGBB` per line), or
 `on`/`off`. Persisted verbatim to `themes/<name>.themedata`; full line map in
 [theme-data-format.md](theme-data-format.md).
 

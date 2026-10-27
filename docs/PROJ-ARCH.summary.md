@@ -29,7 +29,7 @@ Env-var detection (iTerm2 > Ghostty > Kitty > WezTerm > ... > xterm); OSC 0 titl
 
 ## Installation & Ecosystem
 
-Lives at Portfolio/Utilities/source/tabbing-on in the Noizu Infra monorepo; a SUBDIR of Portfolio/Utilities/Makefile, so monorepo-root `make install-utilities` recurses into its Makefile. No share/k8-lib or .infra-config.yaml footprint — purely local tool sharing the ~/.local/bin convention. `make install`: cargo build → ~/.local/bin/tabbing-on + ~19 applet symlinks + shell libs to ~/.local/share/tabbing-on/ + direnv use_tabbing helper. `make install-shell` = legacy pure-shell install. Activate via `eval "$(tabbing-init bash|zsh)"`. dc mode depends on sibling direnv-config utility.
+Checked out as a submodule of the Noizu Infra monorepo at Projects/tabbing-on (remote noizu-labs-utils/tabbing-on), formerly under the Portfolio/Utilities subtree; install is driven by its own root Makefile. No share/k8-lib or .infra-config.yaml footprint — purely local tool sharing the ~/.local/bin convention. `make install`: cargo build → ~/.local/bin/tabbing-on + ~19 applet symlinks + shell libs to ~/.local/share/tabbing-on/ + direnv use_tabbing helper. `make install-shell` = legacy pure-shell install. Activate via `eval "$(tabbing-init bash|zsh)"`. dc mode depends on sibling direnv-config utility.
 
 ## Key Decisions
 
