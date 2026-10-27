@@ -1,5 +1,6 @@
 # X11/Tk symbolic color database. Source: X11 rgb.txt v10.41. Format: normalized-name|#RRGGBB
 # normalized-name = lowercased, spaces/CamelCase -> single hyphens, trailing digits -> -N (e.g. DodgerBlue/dodger blue -> dodger-blue, antiquewhite1 -> antique-white-1, gray50 -> gray-50). Sorted by name; spaced & CamelCase duplicates collapsed.
+# 〚📁:4d0e3005-8fc1-55ab-9b16-9b6ddcf688b2〛 colors.txt :: X11/Tk symbolic color database (name|#RRGGBB), used for theme name resolution.
 alice-blue|#F0F8FF
 antique-white|#FAEBD7
 antique-white-1|#FFEFDB

@@ -1,5 +1,7 @@
 # Threat Model
 
+<!-- 〚📁:b94542e8-0ee4-5170-94e1-e99fa9846c00〛 THREAT-MODEL :: Living threat model: attack surface, vulnerability register, mitigations. -->
+
 ## Overview
 
 tabbing-on is a **purely local, single-user terminal tool**: a CLI binary plus

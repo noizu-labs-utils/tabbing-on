@@ -1,0 +1,122 @@
+---
+pointers:
+  44fd1782-5eac-5717-8521-dcaaee17fa48:
+    created_at: 2026-10-27T04:16:53.827803Z
+    description: argv0 multi-call dispatch entry point, routing to subcommand modules.
+    file_path: rust/src/main.rs
+    function: tabbing-on main
+    kind: module
+    line: 1
+    locations:
+      - file_path: rust/src/main.rs
+        line: 1
+    token: 𓌃𓿞𓌴𓾘
+    updated_at: 2026-10-27T04:16:53.827803Z
+  4d0e3005-8fc1-55ab-9b16-9b6ddcf688b2:
+    created_at: 2026-10-27T04:16:53.827816Z
+    description: X11/Tk symbolic color database (name|#RRGGBB), used for theme name resolution.
+    file_path: shell-impl/data/colors.txt
+    function: colors.txt
+    kind: file
+    line: 3
+    locations:
+      - file_path: shell-impl/data/colors.txt
+        line: 3
+    token: 𓚛𓉅𓘸𓈒
+    updated_at: 2026-10-27T04:16:53.827816Z
+  70b1e83d-168c-5770-b44a-92b686f860a0:
+    created_at: 2026-10-27T04:16:53.827823Z
+    description: Project entry point - dual Rust + shell implementations, install, quick start.
+    file_path: README.md
+    function: tabbing-on README
+    kind: file
+    line: 3
+    locations:
+      - file_path: README.md
+        line: 3
+    token: 𓹽𔅎𓥍𓨀
+    updated_at: 2026-10-27T04:16:53.827823Z
+  7ed9a97f-38dd-5ef0-a066-535ebf49e40b:
+    created_at: 2026-10-27T04:16:53.827820Z
+    description: 'Data schema reference: TAB_* state, XDG state tree, theme blob, CLI grammar.'
+    file_path: docs/PROJ-SCHEMA.md
+    function: PROJ-SCHEMA
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-SCHEMA.md
+        line: 3
+    token: 𓚦𓌌𔋨𓦛
+    updated_at: 2026-10-27T04:16:53.827820Z
+  a324acdc-7169-5cf9-a637-4c1cafb0a52d:
+    created_at: 2026-10-27T04:16:53.827784Z
+    description: Navigable map of the tabbing-on repository structure.
+    file_path: docs/PROJ-LAYOUT.md
+    function: PROJ-LAYOUT
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-LAYOUT.md
+        line: 3
+    token: 𓄦𓁣𓐒𔁝
+    updated_at: 2026-10-27T04:16:53.827784Z
+  b94542e8-0ee4-5170-94e1-e99fa9846c00:
+    created_at: 2026-10-27T04:16:53.827799Z
+    description: 'Living threat model: attack surface, vulnerability register, mitigations.'
+    file_path: docs/THREAT-MODEL.md
+    function: THREAT-MODEL
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/THREAT-MODEL.md
+        line: 3
+    token: 𓇊𓪹𓉯𓪀
+    updated_at: 2026-10-27T04:16:53.827799Z
+  c035c508-a3b4-5183-be5f-cee9fff7daeb:
+    created_at: 2026-10-27T04:16:53.827807Z
+    description: Shell-impl vs Rust feature coverage matrix.
+    file_path: docs/FEATURE-PARITY.md
+    function: FEATURE-PARITY
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/FEATURE-PARITY.md
+        line: 3
+    token: 𓌶𓡡𔍡𔂋
+    updated_at: 2026-10-27T04:16:53.827807Z
+  d8b4af8c-544e-52dd-b771-17ffd8b731cc:
+    created_at: 2026-10-27T04:16:53.827827Z
+    description: High-level architecture overview for tabbing-on.
+    file_path: docs/PROJ-ARCH.md
+    function: PROJ-ARCH
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-ARCH.md
+        line: 3
+    token: 𔆚𓊆𔃁𓡬
+    updated_at: 2026-10-27T04:16:53.827827Z
+  d9d02627-fd3a-5486-ade8-79d30942195a:
+    created_at: 2026-10-27T04:16:53.827834Z
+    description: 383-line TAB_THEME_DATA blob format spec and line map.
+    file_path: docs/theme-data-format.md
+    function: theme-data-format
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/theme-data-format.md
+        line: 3
+    token: 𔔩𓏬𔇀𓀺
+    updated_at: 2026-10-27T04:16:53.827834Z
+  de7e7e43-1825-5909-9236-fb632c1055fc:
+    created_at: 2026-10-27T04:16:53.827830Z
+    description: voice-memo-to-ticket pipeline (app, audio, llm, prompt, config, filesystem, types).
+    file_path: rust/src/plan/mod.rs
+    function: tabbing-plan module
+    kind: module
+    line: 1
+    locations:
+      - file_path: rust/src/plan/mod.rs
+        line: 1
+    token: 𔎙𓐗𓭺𓒬
+    updated_at: 2026-10-27T04:16:53.827830Z

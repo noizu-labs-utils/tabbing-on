@@ -1,5 +1,7 @@
 # Theme data format (`TAB_THEME_DATA`)
 
+<!-- 〚📁:d9d02627-fd3a-5486-ade8-79d30942195a〛 theme-data-format :: 383-line TAB_THEME_DATA blob format spec and line map. -->
+
 A theme is stored in **one variable** — `TAB_THEME_DATA` — as a newline-delimited
 block of **383 lines** where the *line number is the lookup key*. No YAML, no
 JSON, no `yq`: reading a value is `sed -n "${line}p"`. On disk the same blob is

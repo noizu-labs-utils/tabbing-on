@@ -1,5 +1,7 @@
 # tabbing-on
 
+<!-- 〚📁:70b1e83d-168c-5770-b44a-92b686f860a0〛 tabbing-on README :: Project entry point - dual Rust + shell implementations, install, quick start. -->
+
 **Repo:** https://github.com/noizu/tabbing-on
 
 A pure-shell terminal tab title, status & task manager with theme support.

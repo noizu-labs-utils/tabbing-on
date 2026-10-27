@@ -1,5 +1,7 @@
 # Feature Parity: Shell vs Rust
 
+<!-- 〚📁:c035c508-a3b4-5183-be5f-cee9fff7daeb〛 FEATURE-PARITY :: Shell-impl vs Rust feature coverage matrix. -->
+
 Generated 2026-05-27 (rev 2). Covers shell-impl/ and rust/src/.
 
 ## Legend
