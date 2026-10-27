@@ -1,5 +1,7 @@
 # Project Layout
 
+<!-- 〚📁:a324acdc-7169-5cf9-a637-4c1cafb0a52d〛 PROJ-LAYOUT :: Navigable map of the tabbing-on repository structure. -->
+
 Terminal tab title/status/todo/recording manager. Two parallel implementations —
 the original pure-shell version (`shell-impl/`, Bash 4.0+/Zsh 5.0+ on a POSIX lib
 foundation) and the primary Rust multi-call binary (`rust/`, v0.2.0; its `plan/`

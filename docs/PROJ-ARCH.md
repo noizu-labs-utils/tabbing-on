@@ -1,5 +1,7 @@
 # Project Architecture
 
+<!-- 〚📁:d8b4af8c-544e-52dd-b771-17ffd8b731cc〛 PROJ-ARCH :: High-level architecture overview for tabbing-on. -->
+
 ## Overview
 
 tabbing-on is a terminal tab title/status/task manager: it sets tab titles, colors,

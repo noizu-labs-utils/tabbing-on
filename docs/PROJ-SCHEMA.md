@@ -1,5 +1,7 @@
 # Project Schema
 
+<!-- 〚📁:7ed9a97f-38dd-5ef0-a066-535ebf49e40b〛 PROJ-SCHEMA :: Data schema reference: TAB_* state, XDG state tree, theme blob, CLI grammar. -->
+
 > **No persistence layer.** tabbing-on has **no SQL database, no Liquibase
 > changelogs, and no ORM models**. Runtime state lives in exported `TAB_*`
 > environment variables; durable state is a flat tree of YAML / `.env` /

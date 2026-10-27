@@ -1,3 +1,4 @@
+// 〚📦:44fd1782-5eac-5717-8521-dcaaee17fa48〛 tabbing-on main :: argv0 multi-call dispatch entry point, routing to subcommand modules.
 mod bridge;
 mod claude;
 mod color;
